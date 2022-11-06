@@ -33,6 +33,8 @@ test('test exception', () => {
 })
 
 describe('examples for testing Promise function ', () => {
+    // good documentation can be found at 
+    // https://jestjs.io/docs/asynchronous
     const filepath = path.join(__dirname, 'new_data.txt')
 
     test('Promise and increase timeout for one test', () => {
